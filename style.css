@@ -1,9 +1,9 @@
-
-    /* * {
+ 
+   {
       margin: 0;
       padding: 0;
       box-sizing: border-box;
-    } */
+    } 
 
     body {
       font-family: 'Arial', sans-serif;
@@ -63,18 +63,16 @@
       color: #fff;
       text-decoration: none;
       border-radius: 7px;
-      margin-top: 20px;
+      margin: right 10px 20px;
+  
     }
-
-    
 
     .hero-image img {
       width: 100%;
       border-radius: 50%;
     }
 
-    
-
+  
     .stats {
       display: flex;
       justify-content: space-around;
@@ -101,9 +99,14 @@ text-align:center;
 background-color: rgba(0, 0, 0, 0.318);
  }
  
- nav a:first-child:hover {
+ nav a:first-child:hover,a:last-child:hover {
     
     
+    background-color: black;
+    color: darksalmon;
+    padding: 10px;
+  }
+  nav a.str:hover{
     background-color: black;
     color: darksalmon;
     padding: 10px;
@@ -153,4 +156,8 @@ background-color: rgba(0, 0, 0, 0.318);
   .dropdown-menu li:hover {
     background: #f0f0f0;
   }
-  
+  a.log:hover {
+    background-color: black;
+    color: darksalmon;
+    padding: 10px;
+  }
